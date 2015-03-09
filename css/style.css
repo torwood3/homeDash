@@ -68,3 +68,10 @@ span.clock_grey
     color             : #888;
     font-size         : inherit;
 }
+
+/************ Weather ***************/
+
+div#weather > .content
+{
+    padding-left: 20px;
+}

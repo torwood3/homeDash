@@ -3,6 +3,7 @@
  */
 
 var horloge_timeout;
+var meteo_timeout;
 
 function horloge()
 {
@@ -32,4 +33,9 @@ function horloge()
 }
 
 
+
+/******************* INITIALISATION ********************/
 horloge();
+$('.carousel').carousel({
+    interval: 2000
+})
